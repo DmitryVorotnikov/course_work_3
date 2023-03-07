@@ -1,20 +1,7 @@
-from import_json import operation
+from utils import utils_1
 
-operation_executed = []
-def select_executed():
-    for i in operation:
-        if i['state'] == 'EXECUTED':
-            operation_executed.append(i)
-
-select_executed()
-print(operation_executed)
-
-
-
-
-
-
-
+i = utils_1.get_data()
+print(i)
 
 
 
